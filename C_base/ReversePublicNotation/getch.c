@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include"rpn.h"
-#define BUFSIZE 100
+#define BUFSIZE 1000
 int bufp = 0;
 char buf[BUFSIZE];
 int getch(void)

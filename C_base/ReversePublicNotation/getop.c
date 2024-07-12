@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<ctype.h>
 #include"rpn.h"
-
+/*getop*/
 int getop(char s[])
 {
     int i,c;

@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include"rpn.h"
-#define MAXVAL 100 /*stack's max depth*/
+#define MAXVAL 1000 /*stack's max depth*/
 int sp = 0; /*the index of the mext blank space*/
 double val[MAXVAL];/*stack*/
 
