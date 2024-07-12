@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "rpn.h": "c",
+        "ctype.h": "c"
+    }
+}
