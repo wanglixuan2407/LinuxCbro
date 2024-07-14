@@ -11,7 +11,8 @@ int main()
     /*1 byte = 8 bits, float = 32 bits of precision;double = 64 bits of precision */
     /*You can change the bytes of integer and decimal and check the accuracy */
     bool e = true; // %d bool variation stores true and false;1byte(1=true,0=false) 
-    
+    /*before using bool, #include<stdbool.h>*/
+
     char f = 97; //%d or %c char---1byte(-128~127),ASCII(char as a numeric value)  
     char f1 = 'A';
     unsigned char g = 255;//%d or %c char---1byte(8bits,2^8=256), unsigned---0-255  
