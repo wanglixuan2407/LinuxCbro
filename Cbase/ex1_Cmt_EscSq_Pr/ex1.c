@@ -1,5 +1,5 @@
 // Comment (// /**/)
-// EscapeSequence (\n \t)
+// EscapeSequence (\n \t \" \' \\) When using " ' \ in printf:Add a \ on the left             
 // printf
 #include<stdio.h>
 int main()
