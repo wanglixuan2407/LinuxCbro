@@ -24,11 +24,12 @@ int main()
                      // Otherwise, the result will be an accurate decimal.  
     float g = a / b;
     float h = x / b;
-    float k = a / y; 
+    float k = a / y;
+    float n = x / (float)y; //(datatype):change the datatype  
     int c = x % y;
 
     printf("%d,%d,%d,%.2f,%d\n",z,w,f,t,c); //7,3,10,2.00,1
-    printf("%.2f,%.2f,%.2f\n",g,h,k);//2.50 2.50 2.50
+    printf("%.2f,%.2f,%.2f,%.2f\n",g,h,k,n);//2.50 2.50 2.50 2.50
     printf("%d,%d,%d,%d,%d\n",x++,x++,++y,++x,++x); // 8,7,3,9,9 
     printf("%d,%d\n",x,y);  // 9 3
     
