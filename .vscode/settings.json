@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "rpn.h": "c",
-        "ctype.h": "c"
+        "ctype.h": "c",
+        "string.h": "c"
     }
 }
