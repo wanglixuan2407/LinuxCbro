@@ -1,7 +1,9 @@
 #include<stdio.h>
 
-int FindMax(int x,int y);
-
+int FindMax(int x,int y); 
+                        //function prototype(yuanxing)
+                        // a declaraion before main()
+                        //Ensures that calls(diaoyong) to a function are made with the correct arguments
 int main()
 {
     // ternary operator = shortcut to if/else when assigning/returning a value

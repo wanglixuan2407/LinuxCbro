@@ -14,7 +14,7 @@ int main()
 
     circumference = 2 * PI * radius;
     area = PI * pow(radius,2);
-    volumn = PI * 4/3 * pow(radius,3);
+    volumn = PI * 4.0/3.0 * pow(radius,3);
 
     printf("Circle's circumference = %.2f\n",circumference);
     printf("Circle's area = %.2f\n",area);
